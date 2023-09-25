@@ -1,5 +1,5 @@
 // O que são vetores ou arrays?
-/*
+
 // Como declarar um array
 let array = ["string", 1, true];
 console.log(array);
@@ -37,7 +37,7 @@ console.log(array2);
 // slice() - retorna uma parte de um array existente
 let novoArray = array2.slice(0, 3);
 console.log(novoArray);
-*/
+
 var object = {
     string: "string",
     number: 1,
