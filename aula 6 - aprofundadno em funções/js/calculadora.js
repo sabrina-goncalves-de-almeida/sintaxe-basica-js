@@ -54,23 +54,28 @@ function calculadora(){
                     alert("Digite uma opção válida");
                     novaOperacao();
                 }
-            }
-        
-            if(operacao == 1){
+            }     
+        }
+
+        switch(operacao){
+            case 1:
                 soma();
-            } else if(operacao == 2){
+                break;
+            case 2:
                 subtracao();
-            } else if(operacao == 3){
+                break;
+            case 3:
                 multiplicacao();
-            } else if(operacao == 4){
+                break;
+            case 4:
                 divisaoReal();
-            } else if(operacao == 5){
+                break;
+            case 5:
                 divisaoInt();
-            } else if(operacao == 6){
+                break;
+            case 6:
                 potenciacao();
-            } else {
-                alert("Essa operação não é válida")
-            }        
+                break;
         }
     }
 }
