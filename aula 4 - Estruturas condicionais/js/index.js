@@ -1,4 +1,3 @@
-/*
 var jogador1 = 1;
 var jogador2 = 0;
 var placar;
@@ -58,7 +57,7 @@ for(i of array){
 for(i of object.propriedade1){
     console.log(i);
 }
-*/
+
 var a = 0;
 var b = 0;
 
